@@ -1,0 +1,45 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcfbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.invitation {
+    text-align: center;
+    border: 2px solid #bc9c22;
+    padding: 20px;
+    width: 60%;
+    background-color: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.invitation h1 {
+    font-size: 2em;
+    color: #bc9c22;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.invitation h2 {
+    font-size: 2.5em;
+    color: #bc9c22;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.tombol{
+    border-radius: 5px;
+    margin: 10px;
+}
